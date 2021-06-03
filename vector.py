@@ -27,7 +27,7 @@ class Vector():
         return Vector(self.x - other.x, self.y - other.y)
         
     def __repr__(self):
-        return "(%.2f, %.2f) %.2f %.2f" % (self.x, self.y, round(self.mag,1), round(self.angle,1)) + u'\xb0'
+        return "(%.2f, %.2f) %.2f %.2f" % (self.x, self.y, self.mag, self.angle) + u'\xb0'
 
 def toVect(x1,y1, x2,y2):
     return Vector(x2 - x1, y2 - y1)
