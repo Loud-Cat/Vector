@@ -47,5 +47,6 @@ def fromAngle(mag, angle):
 
 i = Vector(1,0)
 j = Vector(0,1)
-tests()
 
+if __name__ == "__main__":
+    tests()
